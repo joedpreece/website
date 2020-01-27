@@ -11,6 +11,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+		function myFunction() {
+			var x = document.getElementById("myDIV");
+			if (x.style.display === "none") {
+				x.style.display = "block";
+			} else {
+			x.style.display = "none";
+			}
+		}
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -31,6 +41,7 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html">About</a></li>
 								<li><a href="generic.html">Academia</a></li>
 								<li><a href="elements.html">Personal</a></li>
 							</ul>
@@ -55,7 +66,7 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Magna arcu feugiat</h2>
+										<h2 class="major">About</h2>
 										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
 										<a href="#" class="special">Learn more</a>
 									</div>
@@ -67,7 +78,7 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Tempus adipiscing</h2>
+										<h2 class="major">Academia</h2>
 										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
 										<a href="#" class="special">Learn more</a>
 									</div>
@@ -79,7 +90,7 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Nullam dignissim</h2>
+										<h2 class="major">Personal</h2>
 										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
 										<a href="#" class="special">Learn more</a>
 									</div>
@@ -87,7 +98,7 @@
 							</section>
 
 						<!-- Four -->
-							<section id="four" class="wrapper alt style1">
+							<!--<section id="four" class="wrapper alt style1">
 								<div class="inner">
 									<h2 class="major">Vitae phasellus</h2>
 									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
@@ -121,16 +132,16 @@
 										<li><a href="#" class="button">Browse All</a></li>
 									</ul>
 								</div>
-							</section>
+							</section>-->
 
 					</section>
 
 				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
+							<h2 class="major">Get In Touch!</h2>
+							<p>If you need to contact me, please use the form below. Alternatively, email me or check out my social media!</p>
+							<!--<form method="post" action="#">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -148,21 +159,23 @@
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
-							</form>
+							</form>-->
 							<ul class="contact">
 								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
+									Birmingham Centre for Railway Research and Education<br />
+									University of Birmingham<br />
+									Edgbaston<br />
+									United Kingdom<br />
+									B15 2TT
 								</li>
 								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
+								<li class="icon solid fa-envelope"><a href="mailto:&#106;&#111;&#101;&#100;&#112;&#114;&#101;&#101;&#099;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#106;&#111;&#101;&#100;&#112;&#114;&#101;&#101;&#099;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
+								<li class="icon brands fa-twitter"><a href="https://twitter.com/joedpreece">twitter.com/joedpreece</a></li>
 								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
 								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Joe Preece 2020. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
